@@ -97,6 +97,22 @@ public class MainTest {
         Assertions.assertEquals(expected, result);
     }
 
+    @Test
+    void alarmLevel2(){
+        //given
+        String farbe="rot";
+
+        //when
+        String result=Main.alarmLevel2(0, farbe);
+        String expected="keine Personen erlaubt";
+
+        Assertions.assertEquals(expected, result);
+    }
+
+
+
+
+
 
 
 }

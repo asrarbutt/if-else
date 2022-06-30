@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println(fakultaet(10));
+
     }
 
     public static String alarm(int number){
@@ -33,6 +35,40 @@ public class Main {
                 return 0;
         }
     }
+
+    public static String alarmLevel2(int input, String alarmLevelToDay){
+
+        switch (alarmLevelToDay){
+            case "rot":
+                return "keine Personen erlaubt";
+            case "gelb":
+                return "max 30 Personen erlaubt";
+            case "grün":
+                return "max 60 personen erlaubt";
+
+
+            default:
+                return "das ist keine Farbe";
+
+        }
+
+
+
+    }
+
+    public static int fakultaet(int i){
+        int result=1;
+
+
+
+        for (int x=1; x<=i; x++){
+            result = result * x;
+            System.out.println( "die Fakultät von: " + x +"  ---->  "+result);
+        }
+
+        return result;
+    }
+
 
 
 }
