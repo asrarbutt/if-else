@@ -73,10 +73,9 @@ public class Main {
     public static int fakultaetwhile(int zahl){
 
         int count=zahl;
-        System.out.println(count +"count");
         int result=1;
         while (count==zahl){
-            System.out.println("count in der while schleife " + count);
+
 
             for (int x=1; x<=zahl; x++){
                 result = result * x;
