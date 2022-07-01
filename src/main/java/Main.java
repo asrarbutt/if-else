@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(fakultaet(10));
+        System.out.println(fakultaetwhile(3));
 
     }
 
@@ -69,6 +69,28 @@ public class Main {
         return result;
     }
 
+
+    public static int fakultaetwhile(int zahl){
+
+        int count=zahl;
+        System.out.println(count +"count");
+        int result=1;
+        while (count==zahl){
+            System.out.println("count in der while schleife " + count);
+
+            for (int x=1; x<=zahl; x++){
+                result = result * x;
+
+
+            }
+
+            count++;
+
+        }
+        return result;
+
+
+    }
 
 
 }

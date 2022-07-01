@@ -109,6 +109,19 @@ public class MainTest {
         Assertions.assertEquals(expected, result);
     }
 
+    @Test
+    void fakultaetwhile(){
+        //given
+
+        int number=3;
+
+        //when
+        int result= Main.fakultaetwhile(number);
+        int expacted=6;
+        //then
+        Assertions.assertEquals(expacted, result);
+    }
+
 
 
 
