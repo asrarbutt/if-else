@@ -1,5 +1,4 @@
 name: Build project with maven
-
 on: push
 
 jobs:
