@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="950c6432-b18e-49d5-b103-b920cb3fcdb8" name="Changes" comment="add switch case in a method">
+    <list default="true" id="950c6432-b18e-49d5-b103-b920cb3fcdb8" name="Changes" comment="change build-ci.ymI">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build-ci.ymI" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -107,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656583822238</updated>
       <workItem from="1656583823588" duration="9091000" />
+      <workItem from="1656756125542" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="add switch case in a method">
       <created>1656594759966</created>
@@ -115,7 +115,70 @@
       <option name="project" value="LOCAL" />
       <updated>1656594759966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add github CI">
+      <created>1656666643394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656666643394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add github CI">
+      <created>1656667259376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656667259376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add github CI">
+      <created>1656667580747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656667580747</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add plugin">
+      <created>1656668246250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668246250</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add plugin">
+      <created>1656668400222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668400222</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change build-ci name">
+      <created>1656668548770</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668548770</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change">
+      <created>1656668675986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668675986</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change name">
+      <created>1656668781781</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668781781</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change build-ci.ymI">
+      <created>1656668952267</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656668952267</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +197,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add switch case in a method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add switch case in a method" />
+    <MESSAGE value="add github CI" />
+    <MESSAGE value="add plugin" />
+    <MESSAGE value="change build-ci name" />
+    <MESSAGE value="change" />
+    <MESSAGE value="change name" />
+    <MESSAGE value="change build-ci.ymI" />
+    <option name="LAST_COMMIT_MESSAGE" value="change build-ci.ymI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
